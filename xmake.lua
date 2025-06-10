@@ -21,7 +21,7 @@ if is_host("windows") then
 	set_defaultmode("Game__Shipping__Win64")
 end
 
-target("test_win32error")
+target("test_syserror")
 	add_files("tests/main.cpp")
 	add_rules("ue4ss.tests")
 	add_deps("Helpers")
